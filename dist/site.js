@@ -25,7 +25,8 @@ document.addEventListener('keydown', (event) => {
   menuButton.focus();
 });
 
-document.querySelector('#year').textContent = String(new Date().getFullYear());
+const yearElement = document.querySelector('#year');
+if (yearElement) yearElement.textContent = String(new Date().getFullYear());
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (reducedMotion || !('IntersectionObserver' in window)) {

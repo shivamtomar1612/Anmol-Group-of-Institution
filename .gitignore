@@ -1,0 +1,9 @@
+# Local development and generated tooling
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+.sites-runtime/
+.openai/local*

@@ -413,6 +413,10 @@
 .field input, .field select, .field textarea { width: 100%; border: 1px solid var(--color-line-strong); border-radius: 0; background: var(--color-white); color: var(--color-ink-900); padding: .8rem .85rem; }
 .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--color-bronze); outline-offset: 2px; }
 .form-note { min-height: 1.4rem; margin: 0; color: var(--color-ink-600); font-size: .78rem; }
+.form-note[data-state="error"] { color: #9a493c; }
+.form-note[data-state="success"] { color: #2f6554; }
+.form-note[data-state="loading"] { color: var(--color-ink-600); }
+.enquiry-form button[disabled] { cursor: progress; opacity: .72; }
 .academic-index__fee-link { color: var(--color-bronze-dark); font-weight: 700; }
 
 @media (max-width: 60rem) {
