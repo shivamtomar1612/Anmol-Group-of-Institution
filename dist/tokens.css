@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap');
+
+:root {
+  /* Color: institutional, warm, restrained */
+  --color-navy-950: #071b2a;
+  --color-navy-900: #0b2b43;
+  --color-navy-800: #123e5d;
+  --color-navy-700: #1c526f;
+  --color-ivory-100: #f4f0e7;
+  --color-ivory-50: #faf8f3;
+  --color-white: #ffffff;
+  --color-ink-900: #17242d;
+  --color-ink-700: #44525c;
+  --color-ink-500: #69757d;
+  --color-line: #d8d5cd;
+  --color-line-strong: #b9b7b0;
+  --color-bronze: #a86f3c;
+  --color-bronze-dark: #81512a;
+  --color-teal: #476f6b;
+  --color-success: #2e6b55;
+  --color-warning-bg: #f5ead8;
+  --color-warning-text: #6d471f;
+  --color-focus: #1976b9;
+
+  /* Typography */
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, monospace;
+
+  --text-display: clamp(3.5rem, 7vw, 6.75rem);
+  --text-h1: clamp(2.75rem, 5vw, 5rem);
+  --text-h2: clamp(2.125rem, 3.7vw, 3.75rem);
+  --text-h3: clamp(1.5rem, 2vw, 2rem);
+  --text-h4: 1.25rem;
+  --text-lead: clamp(1.1875rem, 1.6vw, 1.5rem);
+  --text-body: 1.0625rem;
+  --text-small: 0.9375rem;
+  --text-label: 0.75rem;
+
+  --leading-display: 0.98;
+  --leading-heading: 1.08;
+  --leading-body: 1.7;
+  --tracking-tight: -0.035em;
+  --tracking-label: 0.13em;
+
+  /* Spacing: 4px base with editorial jumps */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --space-11: 10rem;
+
+  /* Layout */
+  --container: 84rem;
+  --measure: 43rem;
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --grid-gap: clamp(1rem, 2vw, 2rem);
+
+  /* Shape and depth */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+  --shadow-subtle: 0 18px 50px rgb(7 27 42 / 0.08);
+
+  /* Motion */
+  --duration-fast: 160ms;
+  --duration-standard: 280ms;
+  --duration-reveal: 480ms;
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 48rem) {
+  :root {
+    --text-body: 1rem;
+    --space-9: 4.5rem;
+    --space-10: 6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 1ms;
+    --duration-standard: 1ms;
+    --duration-reveal: 1ms;
+  }
+}
+
