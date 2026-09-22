@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://new-anmol-group-of-institutions.aggarwalvasan5.chatgpt.site/sitemap.xml

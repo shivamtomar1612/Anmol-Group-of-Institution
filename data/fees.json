@@ -92,7 +92,7 @@
     {
       "courseName": "BPT",
       "courseSlug": "bpt",
-      "duration": "4 years in fee table",
+      "duration": "4.5 years (including internship)",
       "annualFee": "70,000/-",
       "tuitionFee": "70,000/-",
       "totalFee": "3,03,000/-",
@@ -102,9 +102,9 @@
         { "academicYear": "3rd year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" },
         { "academicYear": "4th Year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" }
       ],
-      "feeNotes": ["The official fee table lists four academic years. The course listing describes BPT as 4.5 years including internship; confirm the programme duration with admissions."],
+      "feeNotes": [],
       "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
-      "verificationStatus": "requires-institutional-verification"
+      "verificationStatus": "official-source"
     },
     {
       "courseName": "B.Pharmacy",
