@@ -824,3 +824,196 @@
   .event-record { grid-template-columns: 1fr; }
   .event-record img { max-width: 34rem; }
 }
+
+/* Mobile-first polish — shared across every page */
+@media (max-width: 60rem) {
+  .source-note { margin-inline: 0; }
+  .identity-feature img { min-height: 0; aspect-ratio: 4 / 3; }
+  .course-story__aside { max-width: 100%; }
+  .course-action__grid,
+  .fee-contact-band__inner,
+  .admissions-support__grid,
+  .contact-next { align-items: flex-start; }
+}
+
+@media (max-width: 48rem) {
+  .learning-image::after,
+  .chairman-portrait::after,
+  .photo-led__image::before { right: 0; }
+  .contact-grid > *,
+  .contact-grid address,
+  .contact-grid p,
+  .contact-grid a,
+  .social-links { min-width: 0; }
+  .contact-grid a { overflow-wrap: anywhere; }
+  .home-hero {
+    min-height: min(92svh, 42rem);
+  }
+  .home-hero__media img { object-position: 58% center; }
+  .home-hero__content {
+    padding-block: 5rem 5.5rem;
+  }
+  .home-hero h1 {
+    max-width: 12ch;
+    font-size: clamp(2.9rem, 12vw, 4.2rem);
+    line-height: .98;
+  }
+  .home-hero__lead {
+    max-width: 34rem;
+    margin-top: 1.25rem;
+    font-size: clamp(1.05rem, 4.2vw, 1.25rem);
+  }
+  .home-hero__foot {
+    min-height: 3.5rem;
+    padding-inline: var(--gutter);
+  }
+  .home-hero__foot a { font-size: .75rem; }
+
+  .inner-hero,
+  .academics-hero,
+  .fee-hero,
+  .media-hero { padding-block: 4rem 3.5rem; }
+  .inner-hero h1,
+  .academics-hero h1,
+  .fee-hero h1,
+  .media-hero h1,
+  .gallery-hero h1 {
+    max-width: 14ch;
+    font-size: clamp(2.65rem, 11.5vw, 4.3rem);
+    line-height: 1;
+  }
+  .inner-hero__lead,
+  .academics-hero__lead,
+  .gallery-hero__lead { font-size: clamp(1.08rem, 4vw, 1.28rem); }
+  .breadcrumb { margin-bottom: 1.5rem; font-size: .7rem; }
+
+  .pathway-bar__inner { gap: 0; }
+  .pathway-bar a { min-height: 4.75rem; }
+  .academic-group { gap: .5rem; }
+  .academic-group .course-row {
+    min-height: 5.75rem;
+    grid-template-columns: 2.25rem minmax(0, 1fr) 1.5rem;
+    align-items: start;
+    padding-block: 1rem;
+  }
+  .academic-group .course-row__duration {
+    display: block;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: .35rem;
+    text-align: left;
+    font-size: .78rem;
+  }
+  .academic-group .course-row__arrow { grid-column: 3; grid-row: 1 / span 2; }
+
+  .chairman-grid { gap: 1.75rem; }
+  .chairman-home-portrait { max-width: 17rem; }
+  .chairman-quote { padding-top: 1.5rem; }
+  .chairman-quote blockquote { font-size: clamp(1.65rem, 6.2vw, 2.5rem); }
+
+  .facility-grid { gap: .75rem; }
+  .facility { min-height: 17rem; }
+  .facility figcaption { padding: 2.4rem 1rem 1rem; }
+  .facility figcaption strong { font-size: 1.18rem; }
+
+  .learning-list { margin-top: 1.5rem; }
+  .contact-action { gap: .6rem; }
+  .contact-action strong { font-size: 1rem; }
+
+  .programme-group { padding-block: 3.5rem; gap: 1.5rem; }
+  .programme-link {
+    min-height: 0;
+    grid-template-columns: 2.1rem minmax(0, 1fr) 1.5rem;
+    padding-block: 1.1rem;
+  }
+  .programme-link__duration { grid-column: 2; grid-row: 2; margin-top: .35rem; }
+  .programme-link__arrow { grid-column: 3; grid-row: 1 / span 2; }
+  .course-hero { padding-block: 4rem 3.5rem; }
+  .course-hero h1 { font-size: clamp(2.75rem, 12vw, 4.3rem); }
+  .course-hero__full-name { font-size: 1.15rem; }
+  .course-meta { grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .course-meta-item strong { font-size: 1rem; }
+  .course-domains { gap: 0; }
+
+  .page-subnav .container,
+  .about-subnav__inner,
+  .learning-subnav .container,
+  .academic-index__inner { scrollbar-width: none; }
+  .page-subnav .container::-webkit-scrollbar,
+  .learning-subnav .container::-webkit-scrollbar,
+  .academic-index__inner::-webkit-scrollbar { display: none; }
+  .about-subnav__inner { grid-template-columns: 1fr; }
+  .about-subnav a { border-left: 0; }
+
+  .fee-course { padding: 1.15rem; }
+  .fee-course__header,
+  .course-fee-heading { gap: .75rem; }
+  .fee-course__header h2 { font-size: 1.7rem; }
+  .fee-summary,
+  .course-fee__summary { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem 1rem; }
+  .fee-summary strong,
+  .course-fee__summary strong { font-size: 1rem; overflow-wrap: anywhere; }
+  .fee-table-wrap { margin-inline: -.15rem; }
+  .fee-table td { min-width: 0; overflow-wrap: anywhere; }
+  .fee-course__action,
+  .course-fee__actions { align-items: stretch; flex-direction: column; gap: .75rem; }
+  .fee-course__action .button,
+  .course-fee__actions .button { width: 100%; }
+
+  .enquiry-form { padding: 1rem; }
+  .enquiry-form .button { width: 100%; }
+  .field input, .field select, .field textarea { border-radius: 0; }
+
+  .campus-hero,
+  .faculty-hero { min-height: min(88svh, 42rem); }
+  .campus-hero__content,
+  .faculty-hero__content { padding-block: 5rem 4rem; }
+  .campus-hero h1,
+  .faculty-hero h1,
+  .student-hero h1,
+  .learning-hero h1 { font-size: clamp(2.7rem, 12vw, 4.3rem); line-height: 1; }
+  .campus-image-pair img,
+  .campus-triptych img,
+  .gallery-preview img { aspect-ratio: 4 / 3; object-fit: cover; }
+  .campus-film video,
+  .media-film video { width: 100%; height: auto; }
+  .gallery-open { min-height: 2.75rem; }
+  .gallery-item figcaption { display: block; }
+  .gallery-item figcaption span { display: block; margin-top: .35rem; text-align: left; }
+  .lightbox { width: calc(100vw - 1rem); height: calc(100svh - 1rem); }
+  .lightbox__top { padding-inline: 1rem; }
+  .lightbox__stage { padding: .5rem; gap: .5rem; }
+
+  .learning-hero__content,
+  .student-hero__content { padding-block: 4.5rem 3.5rem; }
+  .learning-hero__image img,
+  .student-hero__image img { aspect-ratio: 4 / 3; object-fit: cover; }
+  .learning-statement blockquote { font-size: clamp(1.85rem, 7vw, 3rem); }
+  .learning-principles article,
+  .skills-ledger article,
+  .student-life-ledger article { padding: 1.25rem 0; }
+  .learning-principles h2,
+  .skills-ledger h3,
+  .student-life-ledger h3 { margin-top: 1.25rem; }
+  .student-practice img { aspect-ratio: 4 / 3; object-fit: cover; }
+
+  .media-grid { gap: .75rem; }
+  .media-card figcaption strong { font-size: 1rem; }
+  .event-record { padding: 1rem; }
+  .event-record__body h2 { font-size: 1.9rem; }
+  .social-links { gap: .7rem .9rem; }
+}
+
+@media (max-width: 32rem) {
+  .home-hero { min-height: min(90svh, 40rem); }
+  .home-hero__content { padding-block: 4.25rem 5rem; }
+  .home-hero h1 { font-size: clamp(2.7rem, 11.5vw, 3.85rem); }
+  .home-hero .button-row { gap: .65rem; }
+  .home-hero .button { width: 100%; }
+  .course-meta { grid-template-columns: 1fr; }
+  .fee-summary,
+  .course-fee__summary { grid-template-columns: 1fr; }
+  .approval-item { grid-template-columns: 1.75rem 1fr; gap: .7rem; }
+  .contact-action { grid-template-columns: 1fr; }
+  .contact-action > span:first-child { grid-column: auto; }
+}

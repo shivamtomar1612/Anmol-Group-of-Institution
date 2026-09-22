@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-html { overflow-x: hidden; scroll-behavior: smooth; }
+html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -10,7 +10,6 @@ body {
   font-size: var(--text-body);
   line-height: var(--leading-body);
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
 }
 
 img { display: block; max-width: 100%; }
@@ -429,6 +428,70 @@ p { margin: 0 0 1em; }
 
 .reveal { opacity: 0; transform: translateY(1rem); transition: opacity var(--duration-reveal) var(--ease-standard), transform var(--duration-reveal) var(--ease-standard); }
 .reveal.is-visible { opacity: 1; transform: none; }
+
+/* Responsive interaction foundations */
+.mobile-menu {
+  min-width: 4.5rem;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  color: var(--color-navy-950);
+  cursor: pointer;
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  touch-action: manipulation;
+}
+
+.primary-nav a,
+.button,
+.site-footer a,
+.page-subnav a,
+.about-subnav a,
+.academic-index a,
+.learning-subnav a {
+  touch-action: manipulation;
+}
+
+body.menu-open { overflow: hidden; }
+
+@media (max-width: 70rem) {
+  .site-header.is-menu-open { box-shadow: var(--shadow-subtle); }
+  .site-header.is-menu-open .primary-nav {
+    max-height: calc(100svh - 5rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .site-header.is-menu-open .primary-nav a {
+    display: flex;
+    min-height: 3rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 48rem) {
+  .container { width: min(100% - 2rem, var(--container)); }
+  .utility-bar__inner { min-height: 2.75rem; }
+  .site-header__inner { min-height: 4.75rem; }
+  .brand__logo { flex: 0 0 auto; }
+  .brand__name { overflow-wrap: anywhere; }
+  .section { padding-block: clamp(3.75rem, 11vw, 5.5rem); }
+  .section--compact { padding-block: clamp(2.75rem, 8vw, 4rem); }
+  .section-heading { gap: 1rem; }
+  .section-heading p { max-width: 38rem; }
+  .button { min-height: 3.1rem; padding-inline: 1rem; }
+  .field input, .field select, .field textarea { min-height: 3.1rem; font-size: 1rem; }
+  .field textarea { min-height: 9rem; }
+  .site-footer { padding-block: clamp(4rem, 10vw, 5rem) 2rem; }
+  .site-footer__base { align-items: flex-start; }
+}
+
+@media (max-width: 32rem) {
+  .container { width: min(100% - 1.5rem, var(--container)); }
+  .brand__name { max-width: 10.25rem; font-size: .74rem; }
+  .mobile-menu { min-width: 4.2rem; }
+}
 
 @media (max-width: 70rem) {
   .primary-nav { display: none; }

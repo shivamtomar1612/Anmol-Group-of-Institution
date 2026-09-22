@@ -2,27 +2,44 @@ const header = document.querySelector('.site-header');
 const menuButton = document.querySelector('.mobile-menu');
 const navLinks = document.querySelectorAll('.primary-nav a');
 
+if (menuButton) {
+  menuButton.setAttribute('aria-label', 'Toggle navigation menu');
+  menuButton.setAttribute('aria-haspopup', 'true');
+}
+
+const setMenuState = (open, { returnFocus = false } = {}) => {
+  if (!menuButton) return;
+  menuButton.setAttribute('aria-expanded', String(open));
+  menuButton.textContent = open ? 'Close' : 'Menu';
+  menuButton.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+  header?.classList.toggle('is-menu-open', open);
+  document.body.classList.toggle('menu-open', open);
+  if (returnFocus) menuButton.focus();
+};
+
 menuButton?.addEventListener('click', () => {
   const open = menuButton.getAttribute('aria-expanded') === 'true';
-  menuButton.setAttribute('aria-expanded', String(!open));
-  menuButton.textContent = open ? 'Menu' : 'Close';
-  header?.classList.toggle('is-menu-open', !open);
+  setMenuState(!open);
 });
 
 navLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    menuButton?.setAttribute('aria-expanded', 'false');
-    if (menuButton) menuButton.textContent = 'Menu';
-    header?.classList.remove('is-menu-open');
+    setMenuState(false);
   });
 });
 
 document.addEventListener('keydown', (event) => {
   if (event.key !== 'Escape' || menuButton?.getAttribute('aria-expanded') !== 'true') return;
-  menuButton.setAttribute('aria-expanded', 'false');
-  menuButton.textContent = 'Menu';
-  header?.classList.remove('is-menu-open');
-  menuButton.focus();
+  setMenuState(false, { returnFocus: true });
+});
+
+document.addEventListener('click', (event) => {
+  if (!header || !menuButton || menuButton.getAttribute('aria-expanded') !== 'true') return;
+  if (!header.contains(event.target)) setMenuState(false);
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 1120 && menuButton?.getAttribute('aria-expanded') === 'true') setMenuState(false);
 });
 
 const yearElement = document.querySelector('#year');
