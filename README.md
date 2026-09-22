@@ -43,7 +43,7 @@ There is no compilation step. The committed `dist` directory is the production b
 
 ## Vercel deployment
 
-This repository is a framework-free static site, so it does not need a `vercel.json`, serverless functions or API routes. In Vercel, use Framework Preset **Other**, Root Directory `.`, leave Install Command and Build Command empty, and set Output Directory to `dist`. No environment variables are required. Vercel should serve the committed static output directly, including nested route folders and `404.html`.
+This repository is a framework-free static site with no serverless functions or API routes. The minimal `vercel.json` pins Vercel's output directory to `dist`. In Vercel, use Framework Preset **Other**, Root Directory `.`, leave Install Command and Build Command empty, and keep Output Directory as `dist`. No environment variables are required. Vercel should serve the committed static output directly, including nested route folders and `404.html`.
 
 ## Environment variables
 
