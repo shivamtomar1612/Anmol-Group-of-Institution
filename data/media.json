@@ -1,0 +1,33 @@
+{
+  "sourceLabel": "Supplied New Anmol Group of Institutions photographs and campus film",
+  "sourceNotes": [
+    "The supplied photographs identify campus spaces, laboratories, nursing cohorts and faculty; no event dates are printed in the supplied media.",
+    "The supplied campus film shows regional context, campus interiors, practical nursing spaces, a seminar setting and the college exterior."
+  ],
+  "photos": [
+    { "id": "campus-exterior", "title": "Campus exterior", "category": "Campus & buildings", "path": "assets/campus/campus-exterior.jpg", "alt": "White multi-storey New Anmol Group of Institutions campus building with college entrance signage.", "caption": "Campus & buildings" },
+    { "id": "audio-visual-aids-room", "title": "Audio Visual Aids Room", "category": "Academic spaces", "path": "assets/campus/audio-visual-aids-room.jpg", "alt": "Audio Visual Aids Room with teaching models, wall displays, conference table and projector screen.", "caption": "Academic spaces" },
+    { "id": "advanced-nursing-practice-lab", "title": "Advanced Nursing Practice Lab", "category": "Laboratories", "path": "assets/campus/advanced-nursing-practice-lab.jpg", "alt": "Advanced Nursing Practice Lab with hospital beds, patient mannequins and clinical teaching equipment.", "caption": "Laboratories" },
+    { "id": "community-lab", "title": "Community Lab", "category": "Laboratories", "path": "assets/campus/community-lab.jpg", "alt": "Community Lab arranged with chairs, teaching displays and community-health demonstration materials.", "caption": "Laboratories" },
+    { "id": "child-health-lab", "title": "Child Health Lab", "category": "Laboratories", "path": "assets/campus/child-health-lab.jpg", "alt": "Child Health Lab with infant-care training beds and child mannequins.", "caption": "Laboratories" },
+    { "id": "nutrition-lab", "title": "Nutrition Lab", "category": "Laboratories", "path": "assets/campus/nutrition-lab.jpg", "alt": "Nutrition Lab with teaching table, nutrition displays and faculty members.", "caption": "Laboratories" },
+    { "id": "computer-lab", "title": "Computer Lab", "category": "Computer facilities", "path": "assets/campus/computer-lab.jpg", "alt": "Computer Lab with rows of desktop workstations and chairs beside large windows.", "caption": "Computer facilities" },
+    { "id": "gynaecology-lab", "title": "Gynaecology Lab", "category": "Laboratories", "path": "assets/campus/gynaecology-lab.jpg", "alt": "Gynaecology Lab with anatomical models, teaching charts and demonstration bed.", "caption": "Laboratories" },
+    { "id": "pre-clinical-lab", "title": "Pre Clinical Lab", "category": "Laboratories", "path": "assets/campus/pre-clinical-lab.jpg", "alt": "Pre Clinical Lab with anatomical models, instructional charts and classroom seating.", "caption": "Laboratories" },
+    { "id": "student-cohorts", "title": "Nursing student cohorts", "category": "Students", "path": "assets/campus/student-cohorts.jpg", "alt": "B.Sc Nursing second-semester and GNM second-year student groups photographed at the college entrance.", "caption": "Students" },
+    { "id": "nursing-faculty", "title": "Nursing faculty", "category": "Faculty", "path": "assets/campus/nursing-faculty.jpg", "alt": "Nursing faculty group photographed at the New Anmol College of Nursing entrance.", "caption": "Faculty" }
+  ],
+  "video": {
+    "id": "campus-film",
+    "title": "Campus film",
+    "path": "assets/video/campus-film.mp4",
+    "poster": "assets/video/campus-film-poster.jpg",
+    "alt": "Campus film showing New Anmol Group of Institutions facilities and learning spaces.",
+    "description": "The supplied film moves through regional context, campus interiors, the computer lab, teaching models, nursing practice spaces, a seminar setting and the main building."
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/newanmolnursingcollege?stkn=MWZqbzBxcGJibmoxaw==",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=916397443794&text&type=phone_number&app_absent=0",
+    "facebook": "https://www.facebook.com/profile.php?id=61574509665493"
+  }
+}
