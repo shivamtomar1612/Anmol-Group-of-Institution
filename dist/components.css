@@ -191,7 +191,7 @@ p { margin: 0 0 1em; }
 }
 
 .primary-nav a:hover::after,
-.primary-nav a[aria-current="page"]::after { transform: scaleX(1); }
+.primary-nav a[aria-current]::after { transform: scaleX(1); }
 
 .mobile-menu { display: none; }
 

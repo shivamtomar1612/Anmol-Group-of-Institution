@@ -1,0 +1,145 @@
+{
+  "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+  "sourceLabel": "Official Brochure & Fee Structure page",
+  "globalNotes": [
+    "Clinical duty charges as per management.",
+    "Examination fees as per university rules.",
+    "Transportation cost will be extra.",
+    "Discount will be disbursed on percentage basis which student got in intermediate.",
+    "SC ST reservation available."
+  ],
+  "courses": [
+    {
+      "courseName": "B.Sc Nursing",
+      "courseSlug": "bsc-nursing",
+      "duration": "4 years",
+      "annualFee": "1,30,000/-",
+      "tuitionFee": "1,30,000/-",
+      "totalFee": "5,40,000/-",
+      "feeRows": [
+        { "academicYear": "1st Year", "securityFee": "2,000/-", "admissionFee": "10,000/-", "uniformCharges": "8000/-", "tuitionFee": "1,30,000/-", "totalAmount": "1,50,000/-" },
+        { "academicYear": "2nd Year", "tuitionFee": "1,30,000/-", "totalAmount": "1,30,000/-" },
+        { "academicYear": "3rd year", "tuitionFee": "1,30,000/-", "totalAmount": "1,30,000/-" },
+        { "academicYear": "4rt Year", "tuitionFee": "1,30,000/-", "totalAmount": "1,30,000/-" }
+      ],
+      "feeNotes": [],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "official-source"
+    },
+    {
+      "courseName": "GNM",
+      "courseSlug": "gnm",
+      "duration": "3 years",
+      "annualFee": "70,000/-",
+      "tuitionFee": "70,000/-",
+      "totalFee": "2,28,000/-",
+      "feeRows": [
+        { "academicYear": "1st Year", "admissionFee": "10,000/-", "uniformCharges": "8000/-", "tuitionFee": "70,000/-", "totalAmount": "88,000/-" },
+        { "academicYear": "2nd Year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" },
+        { "academicYear": "3rd year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" }
+      ],
+      "feeNotes": [],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "official-source"
+    },
+    {
+      "courseName": "Post Basic B.Sc Nursing",
+      "courseSlug": "post-basic-bsc-nursing",
+      "duration": "2 years",
+      "annualFee": "85,000/-",
+      "tuitionFee": "85,000/-",
+      "totalFee": "1,85,000/-",
+      "feeRows": [
+        { "academicYear": "1st Year", "admissionFee": "15,000/-", "tuitionFee": "85,000/-", "totalAmount": "100,000/-" },
+        { "academicYear": "2nd Year", "tuitionFee": "85,000/-", "totalAmount": "85,000/-" }
+      ],
+      "feeNotes": [],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "official-source"
+    },
+    {
+      "courseName": "BMLT",
+      "courseSlug": "bmlt",
+      "duration": "3 years",
+      "annualFee": "70,000/-",
+      "tuitionFee": "70,000/-",
+      "totalFee": "2,33,000/-",
+      "feeRows": [
+        { "academicYear": "1st Year", "admissionFee": "10,000/-", "securityFee": "5,000/-", "uniformCharges": "8000/-", "tuitionFee": "70,000/-", "totalAmount": "93,000/-" },
+        { "academicYear": "2nd Year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" },
+        { "academicYear": "3rd year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" }
+      ],
+      "feeNotes": [],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "official-source"
+    },
+    {
+      "courseName": "BMRIT",
+      "courseSlug": "bmrit",
+      "duration": "3 years",
+      "annualFee": "70,000/-",
+      "tuitionFee": "70,000/-",
+      "totalFee": "2,33,000/-",
+      "feeRows": [
+        { "academicYear": "1st Year", "admissionFee": "10,000/-", "securityFee": "5,000/-", "uniformCharges": "8000/-", "tuitionFee": "70,000/-", "totalAmount": "93,000/-" },
+        { "academicYear": "2nd Year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" },
+        { "academicYear": "3rd year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" }
+      ],
+      "feeNotes": [],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "official-source"
+    },
+    {
+      "courseName": "BPT",
+      "courseSlug": "bpt",
+      "duration": "4 years in fee table",
+      "annualFee": "70,000/-",
+      "tuitionFee": "70,000/-",
+      "totalFee": "3,03,000/-",
+      "feeRows": [
+        { "academicYear": "1st Year", "admissionFee": "10,000/-", "securityFee": "5,000/-", "uniformCharges": "8000/-", "tuitionFee": "70,000/-", "totalAmount": "93,000/-" },
+        { "academicYear": "2nd Year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" },
+        { "academicYear": "3rd year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" },
+        { "academicYear": "4th Year", "tuitionFee": "70,000/-", "totalAmount": "70,000/-" }
+      ],
+      "feeNotes": ["The official fee table lists four academic years. The course listing describes BPT as 4.5 years including internship; confirm the programme duration with admissions."],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "requires-institutional-verification"
+    },
+    {
+      "courseName": "B.Pharmacy",
+      "courseSlug": "bpharmacy",
+      "duration": "4 years",
+      "annualFee": "75,000/-",
+      "tuitionFee": "75,000/-",
+      "totalFee": "3,18,000/-",
+      "feeRows": [
+        { "academicYear": "1st Year", "admissionFee": "5000/-", "securityFee": "5000/-", "uniformCharges": "8000/-", "tuitionFee": "75,000/-", "totalAmount": "93,000/-" },
+        { "academicYear": "2nd Year", "tuitionFee": "75,000/-", "totalAmount": "75,000/-" },
+        { "academicYear": "3rd year", "tuitionFee": "75,000/-", "totalAmount": "75,000/-" },
+        { "academicYear": "4th Year", "tuitionFee": "75,000/-", "totalAmount": "75,000/-" }
+      ],
+      "feeNotes": [],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "official-source"
+    },
+    {
+      "courseName": "GDA",
+      "courseSlug": "gda",
+      "duration": "6 months",
+      "feeRows": [],
+      "feeNotes": ["No fee table for GDA appears on the official Brochure & Fee Structure page. Confirm current fees with admissions."],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "fee-not-published"
+    },
+    {
+      "courseName": "B.Sc Optometry",
+      "courseSlug": "bsc-optometry",
+      "duration": "3 years + 6-month internship",
+      "feeRows": [],
+      "feeNotes": ["No fee table for B.Sc Optometry appears on the official Brochure & Fee Structure page. Confirm current fees with admissions."],
+      "sourceUrl": "https://newanmolgroupofinstitutions.com/course-details/",
+      "verificationStatus": "fee-not-published"
+    }
+  ]
+}
