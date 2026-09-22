@@ -41,6 +41,10 @@ The local preview command above is the complete development command for this sta
 
 There is no compilation step. The committed `dist` directory is the production build and can be published by any static host. Before publishing, run the route/link checks described in the project handoff and serve `dist` locally for a smoke test.
 
+## Vercel deployment
+
+This repository is a framework-free static site, so it does not need a `vercel.json`, serverless functions or API routes. In Vercel, use Framework Preset **Other**, Root Directory `.`, leave Install Command and Build Command empty, and set Output Directory to `dist`. No environment variables are required. Vercel should serve the committed static output directly, including nested route folders and `404.html`.
+
 ## Environment variables
 
 No environment variables are required by the current static site. The admissions form prepares a local `mailto:` draft and does not use an API key or server endpoint. If an approved backend is added later, document its variable names in a local `.env.example` and keep credentials out of Git.
